@@ -1,0 +1,10 @@
+[include]
+	path = ~/dotfiles/.gitconfig.alias
+	path = ~/.gitconfig.user
+[core]
+	excludesfile = /Users/myname/.gitignore_global
+	autocrlf = false
+[fetch]
+	prune = true
+[commit]
+	template = ~/dotfiles/.commit_template
