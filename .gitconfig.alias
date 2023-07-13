@@ -11,3 +11,5 @@
 	stt = status -uno
 	difff = diff --word-diff
 	unstage = reset HEAD
+	del = !"f(){ git co main; git branch | xargs git branch -D; };f"
+	com = !"f(){ git co main; git pull origin main; };f"
